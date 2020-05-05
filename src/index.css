@@ -141,11 +141,14 @@ button:hover {
     .left .left-pane {
         flex: 1;
     }
+    .right-pane {
+        border-width: 0 0 0 0px !important;
+    }
 }
 
 .right-pane {
-    border: solid #aaa;
-    border-width: 0 0 0 1px;
+    border: solid #00A5C6;
+    border-width: 0 0 0 5px;
 }
 
 .right-pane .conversation-header {

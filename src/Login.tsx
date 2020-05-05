@@ -4,7 +4,6 @@ import { proxy } from './proxy';
 
 
 export class Login extends Component {
-    [x: string]: any;
     state = { email: "", password: "", displayName: "", register: false };
     render() {
         return (
@@ -39,7 +38,7 @@ export class Login extends Component {
                 type: "login", email: this.state.email, password: this.state.password,
                 staySignedIn: false
             });
-
+        console.log("onClick ran");
     }
 
     checkNeptun(input: string) {
